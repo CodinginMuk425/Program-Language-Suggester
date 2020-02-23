@@ -1,4 +1,4 @@
-h1 {
+#page {
     text-align: center;
 }
 .space {
@@ -23,7 +23,7 @@ p {
     font-weight: bold;
     font-style: italic;
 }
-h2 {
+#test {
     font-style: italic;
     color: rgb(133,125,127);
     margin-top: 40px;
