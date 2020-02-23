@@ -1,4 +1,5 @@
 $(document).ready(function() {
+    //first question
     $("button#green").click(function() {
         $("body").removeClass();
         $("body").addClass("green-background");
@@ -23,6 +24,9 @@ $(document).ready(function() {
         $("body").removeClass();
         $("body").addClass("orange-background");
     });
+    //Sports quesiton
+    var sport = $("input:radio[name=sport]:checked").val();
 });
 
-var sport = $("input:radio[name=sport]:checked").val();
+
+
