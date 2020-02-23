@@ -24,3 +24,5 @@ $(document).ready(function() {
         $("body").addClass("orange-background");
     });
 });
+
+var sport = $("input:radio[name=sport]:checked").val();

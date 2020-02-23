@@ -1,23 +1,30 @@
 <!DOCTYPE html>
 <html class="space">
-    <head>
-        <meta chartset="utf 8">
-        <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
-        <link href="css/styles.css" rel="stylesheet" type="text/css">
-        <script src="js/jquery-3.4.1.js"></script>
-        <script src="js/scripts.js"></script>
-        <title>Program Language Suggester</title>
-    </head>
-    <body>
-        <span class="jumbotron">
-        <h1 id="page">Programs</h1></span>
-        <img src="img/programming.jpg" alt="picture of program language">
-        <p>Welcome to the Program Language Suggester. If you're interested in learning a new programing language, but not quite sure what's the best fit for you, this site will help. Through our site, we will collect a few basic questions about you that can help determine which of the following languages might be the best fitting program language for you. In the end, <span id="note">the decision will come up to you, this is simply our suggestion</span>.</p>
-        <ul>
-            <li>C#</li>
-            <li>JavaScript</li>
-            <li>Python</li>
-        </ul>
+
+<head>
+    <meta chartset="utf 8">
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.4.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Program Language Suggester</title>
+</head>
+
+<body>
+    <span class="jumbotron">
+        <h1 id="page">Programs</h1>
+    </span>
+    <img src="img/programming.jpg" alt="picture of program language">
+    <p>Welcome to the Program Language Suggester. If you're interested in learning a new programing language, but not
+        quite sure what's the best fit for you, this site will help. Through our site, we will collect a few basic
+        questions about you that can help determine which of the following languages might be the best fitting program
+        language for you. In the end, <span id="note">the decision will come up to you, this is simply our
+            suggestion</span>.</p>
+    <ul>
+        <li>C#</li>
+        <li>JavaScript</li>
+        <li>Python</li>
+    </ul>
     <div class="container">
         <h1 id="test">Assessment</h1>
         <h3>Which of the following colors below is your favoite?</h3>
@@ -27,5 +34,41 @@
         <button class="btn4" id="yellow">yellow</button>
         <button class="btn5" id="orange">orange</button>
     </div>
-    </body>
+    <h3>What is your favorite sport?</h3>
+    <div class="radio">
+        <label>
+            <input type="radio" name="sport" value="baseball" checked>
+            Baseball
+        </label>
+    </div>
+    <div class="radio">
+        <label>
+          <input type="radio" name="sport" value="football">
+          Football
+        </label>
+    </div>
+    <div class="radio">
+        <label>
+          <input type="radio" name="sport" value="soccer">
+          Soccer
+        </label>
+    </div>
+    <div class="radio">
+        <label>
+          <input type="radio" name="sport" value="basketball">
+          Basketball
+        </label>
+    </div>
+    <div class="radio">
+        <label>
+          <input type="radio" name="sport" value="other">
+          Other
+        </label>
+    </div>
+    
+    <h3>Do you enjoy puzzles?</h3>
+    <h3>How many times have you been on an airplane?</h3>
+    <h3>How old are you?</h3>
+</body>
+
 </html>
