@@ -24,8 +24,12 @@ $(document).ready(function() {
         $("body").removeClass();
         $("body").addClass("orange-background");
     });
+
     //Sports quesiton
     var sport = $("input:radio[name=sport]:checked").val();
+    
+
+    //Puzzles quesiton will be 10 points for yes and 20 for no
 });
 
 
