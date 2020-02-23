@@ -1,3 +1,6 @@
+h1 {
+    text-align: center;
+}
 .space {
     margin: 20px;
     padding: 20px;
@@ -9,4 +12,17 @@ img {
     width: 300px;
     float: left;
     padding-right: 20px;
+}
+
+p {
+    font-family: sans-serif;
+}
+
+#note {
+    color: red;
+    font-weight: bold;
+    font-style: italic;
+}
+h2 {
+    margin-top: 40px;
 }
