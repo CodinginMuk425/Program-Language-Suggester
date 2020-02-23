@@ -24,5 +24,8 @@ p {
     font-style: italic;
 }
 h2 {
+    font-style: italic;
+    color: rgb(133,125,127);
     margin-top: 40px;
+    text-align: center;
 }
