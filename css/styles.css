@@ -29,10 +29,9 @@ p {
 }
 #test {
     font-style: italic;
-    color: rgb(133,125,127);
     margin-top: 60px;
     padding-left: 0px;
-    text-align: center;
+    padding-top: 20px;
 }
 
 .green-background {
