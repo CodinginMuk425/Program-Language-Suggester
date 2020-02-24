@@ -27,9 +27,12 @@ $(document).ready(function() {
 
     //Sports quesiton
     var sport = $("input:radio[name=sport]:checked").val();
-    
-
+    if ("#Q2" === "other") {
+        prompt("What is your favoirte sport?");
+    }
     //Puzzles quesiton will be 10 points for yes and 20 for no
+
+    
 });
 
 
