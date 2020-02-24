@@ -74,7 +74,11 @@ $("form#airplane").submit(function() {
 $("form#age").submit(function() {
     event.preventDefault();
     var number2 = parseInt($("#input2").val());
-})
+});
+
+//Final score formula
+
+
 
 });
 
