@@ -55,3 +55,21 @@ p {
     position: relative;
     right: 180px;
 }
+
+#click1 {
+    cursor: pointer;
+  color: blue
+}
+
+#click2 {
+    cursor: pointer;
+  color: blue
+}
+
+#click1:hover {
+    text-decoration: underline;
+}
+
+#click2:hover {
+    text-decoration: underline;
+}
