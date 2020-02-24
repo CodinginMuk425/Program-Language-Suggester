@@ -1,6 +1,6 @@
 $(document).ready(function () {
     //all responses will equal a cumulitive score and will create a score. The score will determine the language picker.
-    
+
     //first question
     var green = 1
     var blue = 2
@@ -65,6 +65,17 @@ $(document).ready(function () {
         alert("Yeah, puzzles are great!");
     })
     //question 4 airplane
+$("form#airplane").submit(function() {
+    event.preventDefault();
+    var number1 = parseInt($("#input1").val());
+})
+
+//question 5 age
+$("form#age").submit(function() {
+    event.preventDefault();
+    var number2 = parseInt($("#input2").val());
+})
+
 });
 
 
