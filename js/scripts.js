@@ -27,26 +27,29 @@ $(document).ready(function () {
 
     //Sports quesiton
     var sport = $("input:radio[name=sport]:checked").val();
-    if ("#Q2" === "other") {
-        prompt("What is your favoirte sport?");
-    }
+    var other = 20
+
+    $("#different").click(function() {
+        prompt("What's your favorite sport?");
+    });
+
     //Puzzles quesiton will be 10 points for yes and 20 for no
 
     var yes = 10
     var no = 5
 
     $("#click1").click(function () {
-        $("#nay").hide();
+        $("#nay").toggle();
     });
     $("#click2").click(function () {
-        $("#yay").hide();
+        $("#yay").toggle();
     });
-    
-    $("#nay").click(function() {
+
+    $("#nay").click(function () {
         alert("Yeah, puzzles suck!");
     })
 
-    $("#yay").click(function() {
+    $("#yay").click(function () {
         alert("Yeah, puzzles are great!");
     })
 });

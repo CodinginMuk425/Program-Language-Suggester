@@ -8,6 +8,9 @@
 body {
     background-color: cyan;
 }
+ul {
+    font-weight: bold;
+}
 img {
     width: 300px;
     float: left;
