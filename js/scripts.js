@@ -1,5 +1,13 @@
 $(document).ready(function () {
+    //all responses will equal a cumulitive score and will create a score. The score will determine the language picker.
+    
     //first question
+    var green = 1
+    var blue = 2
+    var red = 3
+    var yellow = 4
+    var orange = 5
+
     $("button#green").click(function () {
         $("body").removeClass();
         $("body").addClass("green-background");
@@ -26,10 +34,14 @@ $(document).ready(function () {
     });
 
     //Sports quesiton
+    var base = 5
+    var foot = 4
+    var socc = 3
+    var basket = 2
+    var other = 1
     var sport = $("input:radio[name=sport]:checked").val();
-    var other = 20
 
-    $("#different").click(function() {
+    $("#different").click(function () {
         prompt("What's your favorite sport?");
     });
 
@@ -52,6 +64,7 @@ $(document).ready(function () {
     $("#yay").click(function () {
         alert("Yeah, puzzles are great!");
     })
+    //question 4 airplane
 });
 
 
