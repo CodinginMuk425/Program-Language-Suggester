@@ -2,40 +2,42 @@ $(document).ready(function () {
     //all responses will equal a cumulitive score and will create a score. The score will determine the language picker.
 
     //first question
-    var green = parseInt("1");
-    var blue = parseInt("2");
-    var red = parseInt("3");
-    var yellow = parseInt("4");
-    var orange = parseInt("5");
+    var green = 1;
+    var blue = 2;
+    var red = 3;
+    var yellow = 4;
+    var orange = 5;
+    var score = 0
+    var result = ""
 
     $("button#green").click(function () {
         $("body").removeClass();
         $("body").addClass("green-background");
-        $("green").parseInt("1");
+        score = score + 1;
     });
 
     $("button#blue").click(function () {
         $("body").removeClass();
         $("body").addClass("blue-background");
-        $("blue").parseInt("2");
+        score = score + 2;
     });
 
     $("button#red").click(function () {
         $("body").removeClass();
         $("body").addClass("red-background");
-        $("red").parseInt("3");
+        score = score + 3;
     });
 
     $("button#yellow").click(function () {
         $("body").removeClass();
         $("body").addClass("yellow-background");
-        $("yellow").parseInt("4");
+        score = score + 4;
     });
 
     $("button#orange").click(function () {
         $("body").removeClass();
         $("body").addClass("orange-background");
-        $("orange").parseInt("5");
+        score = score + 5;
     });
 
     //Sports quesiton
@@ -60,30 +62,35 @@ $(document).ready(function () {
     });
     $("#click2").click(function () {
         $("#yay").toggle();
+        $("yes").parseInt("10")
     });
 
     $("#nay").click(function () {
         alert("Yeah, puzzles suck!");
+        $("no").parseInt("5");
     })
 
     $("#yay").click(function () {
         alert("Yeah, puzzles are great!");
     })
     //question 4 airplane
-$("form#airplane").submit(function() {
-    event.preventDefault();
-    var number1 = parseInt($("#input1").val());
-})
+    $("form").submit(function () {
+        event.preventDefault();
+        var airplaneinput = parseInt($("#airplane").val());
+        var age = parseInt($("#age").val());
+        score = score + airplaneinput + age;
+        if (score > 10) {
+            result = "c#";
+            alert(result);
+        } else {
+            result = "javascript";
+            alert(result);
+        };
+    });
 
-//question 5 age
-$("form#age").submit(function() {
-    event.preventDefault();
-    var number2 = parseInt($("#input2").val());
-});
-
-//Final score formula
-
-
+    //question 5 age
+    
+    //Final score formula
 
 });
 

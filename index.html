@@ -14,85 +14,97 @@
     <span class="jumbotron">
         <h1 id="page">Programs</h1>
     </span>
-    <img src="img/programming.jpg" alt="picture of program language">
-    <p>Welcome to the Program Language Suggester. If you're interested in learning a new programing language, but not
-        quite sure what's the best fit for you, this site will help. Through our site, we will collect a few basic
-        questions about you that can help determine which of the following languages might be the best fitting program
-        language for you. In the end, <span id="note">the decision will come up to you, this is simply our
-            suggestion</span>.</p>
-    <ul>
-        <li>C#</li>
-        <li>JavaScript</li>
-        <li>Python</li>
-    </ul>
-
-    <h1 id="test">Assessment</h1>
     <div class="container">
-        <h3>Which of the following colors below is your favoite?</h3>
-        <button class="btn1" id="green">Green</button>
-        <button class="btn2" id="blue">blue</button>
-        <button class="btn3" id="red">red</button>
-        <button class="btn4" id="yellow">yellow</button>
-        <button class="btn5" id="orange">orange</button>
+        <img src="img/programming.jpg" alt="picture of program language">
+        <p>Welcome to the Program Language Suggester. If you're interested in learning a new programing language, but
+            not
+            quite sure what's the best fit for you, this site will help. Through our site, we will collect a few basic
+            questions about you that can help determine which of the following languages might be the best fitting
+            program
+            language for you. In the end, <span id="note">the decision will come up to you, this is simply our
+                suggestion</span>.</p>
+        <ul>
+            <li>C#</li>
+            <li>JavaScript</li>
+            <li>Python</li>
+        </ul>
     </div>
+    <form>
+        <div class="container">
+            <h1 id="test">Assessment</h1>
+            <h3>Which of the following colors below is your favoite?</h3>
+            <button type="button" class="btn1" id="green">Green</button>
+            <button type="button" class="btn2" id="blue">blue</button>
+            <button type="button" class="btn3" id="red">red</button>
+            <button type="button" class="btn4" id="yellow">yellow</button>
+            <button type="button" class="btn5" id="orange">orange</button>
 
-    <h3>What is your favorite sport?</h3>
-    <div class="container">
-        <div class="radio">
-            <label>
-                <input type="radio" name="sport" value="baseball">
-                Baseball
-            </label>
-        </div>
-        <div class="radio">
-            <label>
-                <input type="radio" name="sport" value="football">
-                Football
-            </label>
-        </div>
-        <div class="radio">
-            <label>
-                <input type="radio" name="sport" value="soccer">
-                Soccer
-            </label>
-        </div>
-        <div class="radio">
-            <label>
-                <input type="radio" name="sport" value="basketball">
-                Basketball
-            </label>
-        </div>
-        <div class="radio" id="different">
-            <label>
-                <input type="radio" name="sport" value="other">
-                Other
-            </label>
-        </div>
-    </div>
+            <h3>What is your favorite sport?</h3>
+            <div class="radio">
+                <label>
+                    <input type="radio" name="sport" value="baseball">
+                    Baseball
+                </label>
+            </div>
+            <div class="radio">
+                <label>
+                    <input type="radio" name="sport" value="football">
+                    Football
+                </label>
+            </div>
+            <div class="radio">
+                <label>
+                    <input type="radio" name="sport" value="soccer">
+                    Soccer
+                </label>
+            </div>
+            <div class="radio">
+                <label>
+                    <input type="radio" name="sport" value="basketball">
+                    Basketball
+                </label>
+            </div>
+            <div class="radio" id="different">
+                <label>
+                    <input type="radio" name="sport" value="other">
+                    Other
+                </label>
+            </div>
 
-    <div class="container">
-        <h3>Do you enjoy puzzles?</h3>
-        <div id="yay">
-            <p>Yes, <span id="click1">click here</span> if you enjoy puzzles!</p>
-        </div>
-        <div id="nay">
-            <p>No, <span id="click2">click here</span> if puzzles are not for you.</p>
-        </div>
-    </div>
+            <h3>Do you enjoy puzzles?</h3>
+            <div id="yay">
+                <p>Yes, <span id="click1">click here</span> if you enjoy puzzles!</p>
+            </div>
+            <div id="nay">
+                <p>No, <span id="click2">click here</span> if puzzles are not for you.</p>
+            </div>
 
+            <h3>How many times have you been on an airplane?</h3>
+            <div class="form-group">
+                <label>Estimated Number:</label>
+                <input id="airplane" type="number" class="form-control">
+            </div>
 
-    <h3>How many times have you been on an airplane?</h3>
-    <form id="airplane">
-        <label for="input1">Estimated number:</label>
-        <input id="input1" type="text"><br>
-        <button type="submit" class="btn">Submit</button>
+            <h3>How old are you?</h3>
+            <div class="form-group">
+                <label>Age</label>
+                <input id="age" type="number" class="form-control">
+            </div>
+
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </div>
     </form>
-    
-    <h3>How old are you?</h3>
-    <form id="age">
-        <label for="input2">Your age:</label>
-        <input id="input2" type="text"><br>
-        <button type="submit" class="btn">Results</button>
 </body>
 
 </html>
+
+<div class="form-group">
+    <label for="exampleFormControlSelect1">Example select</label>
+    <select class="form-control" id="exampleFormControlSelect1">
+        <option>1</option>
+        <option>2</option>
+        <option>3</option>
+        <option>4</option>
+        <option>5</option>
+    </select>
+</div>

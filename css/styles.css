@@ -53,10 +53,6 @@ p {
 .orange-background {
     background-color: orange;
 }
-.container {
-    position: relative;
-    right: 180px;
-}
 
 #click1 {
     cursor: pointer;
@@ -74,4 +70,7 @@ p {
 
 #click2:hover {
     text-decoration: underline;
+}
+input {
+    max-width: 150px;
 }
