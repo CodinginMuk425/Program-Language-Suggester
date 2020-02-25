@@ -16,7 +16,15 @@ img {
     float: left;
     padding-right: 20px;
 }
-
+h2 {
+    font-style: italic;
+    text-align: center;
+    cursor: pointer;
+    color: blue;
+}
+h2:hover {
+    text-decoration: underline;
+}
 p {
     font-family: sans-serif;
 }
@@ -73,4 +81,7 @@ p {
 }
 input {
     max-width: 150px;
+}
+#sportsgroup {
+max-width: 150px;
 }
