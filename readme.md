@@ -12,8 +12,6 @@ _This is a week 7 project we have been instructed to create as a way to better o
 
 * 
 
-_{This should be done in VS code or any other coding tool that can link to Github.}_
-
 ## Known Bugs
 
 _None at this time. Will modify if bugs are experienced._
