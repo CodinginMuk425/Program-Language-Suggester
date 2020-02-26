@@ -45,20 +45,24 @@
                 <div class="form-group">
                     <label for="sportsgroup">Sport</label>
                     <select class="form-control" id="sportsgroup">
-                        <option id="base">Baseball</option>
-                        <option id="foot">Football</option>
-                        <option id="soccer">Soccer</option>
-                        <option id="basket">Basketball</option>
-                        <option id="other">Other</option>
+                        <option id="base" value="1">Baseball</option>
+                        <option id="foot" value="2">Football</option>
+                        <option id="soccer" value="3">Soccer</option>
+                        <option id="basket" value="4">Basketball</option>
+                        <option id="other" value="5">Other</option>
                     </select>
                 </div>
 
                 <h3>Do you enjoy puzzles?</h3>
-                <div id="yay">
-                    <p>Yes, <span id="click1">click here</span> if you enjoy puzzles!</p>
-                </div>
-                <div id="nay">
-                    <p>No, <span id="click2">click here</span> if puzzles are not for you.</p>
+                <div class="radio">
+                    <label>
+                        <input id="yes" type="radio" name="puzzle" value="yes"> 
+                        Yes
+                    </label>
+                    <label>
+                        <input id="no" type="radio" name="puzzle" value="no">
+                        No
+                    </label>
                 </div>
 
                 <h3>How many times have you been on an airplane?</h3>

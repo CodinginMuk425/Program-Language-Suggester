@@ -42,35 +42,41 @@ $(document).ready(function () {
     });
 
     //Sports quesiton
-    
-       
-    
+
+    var yes = $("#yes").click(function() {
+        $(yes = 10);
+    });
+
+    var no = $("#no").click(function() {
+       $(no = 5);
+   });
+
     //Puzzles quesiton 
 
-    var yes = 10;
-    var no = 5;
+    
+   
+   
+    //$("#click1").click(function () {
+    //$("#nay").toggle();
+    // });
+    //$("#click2").click(function () {
+    // $("#yay").toggle();
+    //});
 
-    $("#click1").click(function () {
-        $("#nay").toggle();
-    });
-    $("#click2").click(function () {
-        $("#yay").toggle();
-    });
+    //$("#nay").click(function () {
+    // alert("Yeah, puzzles suck!");
+    // $("no").parseInt("5");
+    // })
 
-    $("#nay").click(function () {
-        alert("Yeah, puzzles suck!");
-        $("no").parseInt("5");
-    })
-
-    $("#yay").click(function () {
-        alert("Yeah, puzzles are great!");
-    })
+    //$("#yay").click(function () {
+    // alert("Yeah, puzzles are great!");
+    // })
     //question 4 airplane
     $("form").submit(function () {
         event.preventDefault();
         var airplaneinput = parseInt($("#airplane").val());
         var age = parseInt($("#age").val());
-        score = score + airplaneinput + age;
+        score = score + (yes | no) + airplaneinput + age;
         if (score > 10) {
             result = "You're ready for c#!";
             alert(result);
@@ -81,7 +87,7 @@ $(document).ready(function () {
     });
 
     //question 5 age
-    
+
     //Final score formula
 
 });
