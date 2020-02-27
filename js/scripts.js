@@ -58,12 +58,12 @@ $(document).ready(function () {
     var basketball = $("#basketball").click(function () {
         $(basketball = 7);
     });
-    
+
     var other = $("#other").click(function () {
         $(other = 6);
         prompt("What's your favoirte sport?")
     });
-  
+
     var sport = $("input:radio[name=sport]:checked").val();
 
 
@@ -78,7 +78,7 @@ $(document).ready(function () {
     });
 
     //question 4 airplane & 5 age
-    
+
     $("form").submit(function () {
         event.preventDefault();
         var airplaneinput = parseInt($("#airplane").val());
@@ -87,10 +87,16 @@ $(document).ready(function () {
         if (score > 24) {
             result = "You're ready for C#!";
             alert(result);
-        } else if (score <=23 && score >= 5); {
+        } else if (score <= 23 && score >= 5); {
             result = "You should study Python!";
             alert(result);
         }
+    });
+
+    //hide survey once complete
+
+    $("#finalscore").click(function () {
+        $(".survey").hide();
     });
 
 });
