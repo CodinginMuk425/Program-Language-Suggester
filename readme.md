@@ -10,7 +10,7 @@ _This is a week 7 project we have been instructed to create as a way to better o
 
 ## Setup/Installation Requirements
 
-1. Clone the code from GitHub through this link:
+1. Clone the code from GitHub through this link: https://codinginmuk425.github.io/Program-Language-Suggester/
 2. Open the html file in a browser
 3. Complete the form to learn what code fits for you
 
