@@ -43,25 +43,29 @@ $(document).ready(function () {
 
     //Sports quesiton
 
-    var baseball = $("#sportsgroup").click(function () {
-        $(baseball = 1);
+    var baseball = $("#baseball").click(function () {
+        $(baseball = 10);
     });
 
-    var football = $("#sportsgroup").click(function () {
-        $(football = 2);
+    var football = $("#football").click(function () {
+        $(football = 9);
     });
 
-    var soccer = $("#sportsgroup").click(function () {
-        $(soccer = 3);
+    var soccer = $("#soccer").click(function () {
+        $(soccer = 8);
     });
 
-    var basketball = $("#sportsgroup").click(function () {
-        $(basketball = 4);
+    var basketball = $("#basketball").click(function () {
+        $(basketball = 7);
     });
+    
+    var other = $("#other").click(function () {
+        $(other = 6);
+        prompt("What's your favoirte sport?")
+    });
+  
+    var sport = $("input:radio[name=sport]:checked").val();
 
-    var other = $("#sportsgroup").click(function () {
-        $(other = 5);
-    });
 
     //Puzzles quesiton 
 
@@ -79,16 +83,14 @@ $(document).ready(function () {
         event.preventDefault();
         var airplaneinput = parseInt($("#airplane").val());
         var age = parseInt($("#age").val());
-        score = score + (yes | no) + airplaneinput + age;
-        if (score > 65) {
+        score = score + (yes | no) + (baseball | football | soccer | basketball | other) + airplaneinput + age;
+        if (score > 24) {
             result = "You're ready for C#!";
             alert(result);
-        } else if (score <=64 && score >= 41); {
+        } else if (score <=23 && score >= 5); {
             result = "You should study Python!";
             alert(result);
-      //  } else {
-        //    result = "You should study JavaScript!";
-        };
+        }
     });
 
 });
