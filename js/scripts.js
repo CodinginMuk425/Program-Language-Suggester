@@ -8,7 +8,7 @@ $(document).ready(function () {
     $(".survey").hide();
 
     $("#click1").click(function () {
-        $(".survey").show();
+        $(".survey").fadeIn();
     });
 
     $("button#green").click(function () {
@@ -66,15 +66,16 @@ $(document).ready(function () {
 
     var sport = $("input:radio[name=sport]:checked").val();
 
-
     //Puzzles quesiton 
 
     var yes = $("#yes").click(function () {
         $(yes = 10);
+        alert("Yeah puzzles are cool, I guess.")
     });
 
     var no = $("#no").click(function () {
         $(no = 5);
+        alert("Yeah! Puzzles suck!")
     });
 
     //question 4 airplane & 5 age
@@ -84,11 +85,14 @@ $(document).ready(function () {
         var airplaneinput = parseInt($("#airplane").val());
         var age = parseInt($("#age").val());
         score = score + (yes | no) + (baseball | football | soccer | basketball | other) + airplaneinput + age;
-        if (score > 24) {
+        if (score > 60) {
             result = "You're ready for C#!";
             alert(result);
-        } else if (score <= 23 && score >= 5); {
+        } else if (score <= 59 && score >= 35) {
             result = "You should study Python!";
+            alert(result);
+        } else {
+            result = "You should study JavaScript!";
             alert(result);
         }
     });
